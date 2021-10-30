@@ -8,8 +8,6 @@ import requests
 
 st.set_page_config(layout="wide")
 
-st.beta_set_page_title('KZT currency statistics')
-
 image = Image.open('kzt.png')
 
 st.image(image, width=500)
