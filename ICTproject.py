@@ -122,7 +122,7 @@ col1.write('The current number is ', number2 / df.loc[count, 'Price'])
 if sort_values == 'Yes':
     df = df.sort_values(by=['Price'])
 
-col2.subheader('Here information about KZT/other currencies')
+col2.subheader('Here information about KZT/other currencies from National Bank of Kazakhstan')
 
 col2.dataframe(df)
 
