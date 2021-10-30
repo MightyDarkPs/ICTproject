@@ -13,7 +13,7 @@ image = Image.open('kzt.png')
 st.image(image, width=500)
 
 link1 = '[National Bank of Kazakhstan](https://nationalbank.kz/ru/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut)'
-link2 = 'http://tng.kz/?city=2'
+link2 = '[Tng.kz](http://tng.kz/?city=2)'
 
 st.title('KZT against other currencies')
 st.markdown("""
