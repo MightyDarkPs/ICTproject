@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 import requests
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="KZT currency statistics", layout="wide")
 
 image = Image.open('kzt.png')
 
