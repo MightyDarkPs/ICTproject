@@ -22,12 +22,12 @@ The main purpose of that webb app is get actual information about currencies
 # ---------------------------------#
 # About
 expander_bar = st.beta_expander("About")
+
 expander_bar.markdown("""
 This project was made by Toktaganov Turlykhan, Shaimuran Alisher and Zhardembek Nurmukhammed
 """)
 
 expander_bar.markdown("""
-This project was made by Toktaganov Turlykhan, Shaimuran Alisher and Zhardembek Nurmukhammed
 Used sources: National Bank of Kazakhstan and tng.kz
 """)
 expander_bar.markdown(link1, unsafe_allow_html=True)
