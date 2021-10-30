@@ -12,6 +12,9 @@ image = Image.open('kzt.png')
 
 st.image(image, width=500)
 
+link1 = '[National Bank of Kazakhstan](https://nationalbank.kz/ru/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut)'
+link2 = 'http://tng.kz/?city=2'
+
 st.title('KZT against other currencies')
 st.markdown("""
 The main purpose of that webb app is get actual information about currencies
@@ -22,6 +25,13 @@ expander_bar = st.beta_expander("About")
 expander_bar.markdown("""
 This project was made by Toktaganov Turlykhan, Shaimuran Alisher and Zhardembek Nurmukhammed
 """)
+
+expander_bar.markdown("""
+This project was made by Toktaganov Turlykhan, Shaimuran Alisher and Zhardembek Nurmukhammed
+Used sources: National Bank of Kazakhstan and tng.kz
+""")
+expander_bar.markdown(link1, unsafe_allow_html=True)
+expander_bar.markdown(link2, unsafe_allow_html=True)
 
 # ---------------------------------#
 
