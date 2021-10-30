@@ -6,12 +6,9 @@ import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup
 import requests
 
-img = Image.open('icon.png')
-
-st.set_page_config(page_title="KZT currency statistics", layout="wide", page_icon=img)
+st.set_page_config(page_title="KZT currency statistics", layout="wide")
 
 image = Image.open('kzt.png')
-
 
 st.image(image, width=500)
 
