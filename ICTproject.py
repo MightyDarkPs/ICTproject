@@ -134,7 +134,7 @@ if sort_values == 'Yes':
 
 col2.subheader('Here information about KZT/other currencies from National Bank of Kazakhstan')
 
-col2.dataframe(df)
+col2.table(df)
 
 col2.markdown(filedownload(df), unsafe_allow_html=True)
 
